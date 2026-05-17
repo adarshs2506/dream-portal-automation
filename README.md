@@ -66,14 +66,3 @@ Run `testng.xml` as TestNG Suite
 ### Option 2:  
 ```bash
 Run testng.xml as TestNG Suite
-
-
-### Reports
-
-After execution:
-
-TestNG Report → /test-output/index.html
-Screenshots → /screenshots/
-
-👤 Author
-Adarsh Singh<img width="1919" height="752" alt="Screenshot 2026-05-17 231845" src="https://github.com/user-attachments/assets/af25b3ec-407e-43df-803a-6424bc27d51e" />
