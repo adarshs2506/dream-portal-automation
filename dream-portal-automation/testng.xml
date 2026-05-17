@@ -1,0 +1,13 @@
+<suite name="Dream Portal Suite">
+
+    <test name="UI Tests">
+
+        <classes>
+            <class name="tests.HomePageTest"/>
+            <class name="tests.DreamDiaryTest"/>
+            <class name="tests.DreamSummaryTest"/>
+        </classes>
+
+    </test>
+
+</suite>
