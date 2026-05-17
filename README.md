@@ -70,10 +70,12 @@ Run testng.xml as TestNG Suite
 ```
 
 ### Reports 
+
 After execution: 
 
 TestNG Report → /test-output/index.html 
-Screenshots → /screenshots/ 
+Screenshots → /screenshots/<img width="1919" height="752" alt="Screenshot 2026-05-17 231845" src="https://github.com/user-attachments/assets/4ce2e24f-89e4-4e4b-a20b-361c45cff40a" />
+
 
 👤 Author 
 Adarsh Singh
