@@ -21,7 +21,7 @@ public class DreamSummaryTest extends BaseTest {
         String total = page.getValue("Total Dreams");
         String recurring = page.getValue("Recurring Dreams");
 
-        // 📸 Screenshot BEFORE validation (optional)
+        // Screenshot BEFORE validation (optional)
         ScreenshotUtil.takeScreenshot(driver, "summary_page");
 
         Assert.assertEquals(good, "6");
@@ -29,7 +29,7 @@ public class DreamSummaryTest extends BaseTest {
         Assert.assertEquals(total, "10");
         Assert.assertEquals(recurring, "2");
 
-        // 📸 Screenshot AFTER validation (important)
+        // Screenshot AFTER validation (important)
         ScreenshotUtil.takeScreenshot(driver, "summary_validated");
     }
 }

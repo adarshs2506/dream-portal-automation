@@ -25,7 +25,7 @@ public class HomePageTest extends BaseTest {
                 By.xpath("//*[contains(text(),'My Dreams')]")
         ));
 
-        // 📸 Screenshot 1
+        // Screenshot 1
         ScreenshotUtil.takeScreenshot(driver, "home_page");
 
         // store old tab
@@ -49,7 +49,7 @@ public class HomePageTest extends BaseTest {
         // wait page load
         wait.until(ExpectedConditions.urlContains("dreams"));
 
-        // 📸 Screenshot 2 (NOW WORKS)
+        // Screenshot 2 (NOW WORKS)
         ScreenshotUtil.takeScreenshot(driver, "home_validated");
 
         // verify

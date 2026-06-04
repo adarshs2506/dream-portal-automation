@@ -25,7 +25,7 @@ public class DreamDiaryTest extends BaseTest {
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//table/tbody/tr")));
 
-        // 📸 SCREENSHOT HERE (after page load)
+        // SCREENSHOT HERE (after page load)
         ScreenshotUtil.takeScreenshot(driver, "diary_page");
 
         DiaryPage diary = new DiaryPage(driver);
@@ -41,7 +41,7 @@ public class DreamDiaryTest extends BaseTest {
             Assert.assertTrue(type.equals("Good") || type.equals("Bad"));
         }
 
-        // 📸 FINAL SCREENSHOT AFTER VALIDATION
+        // FINAL SCREENSHOT AFTER VALIDATION
         ScreenshotUtil.takeScreenshot(driver, "diary_validated");
     }
 }
